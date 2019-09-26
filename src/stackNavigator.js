@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import MainPage from "./components/Header/index"
 import Home from './components/Home/index'
 
