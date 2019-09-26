@@ -1,3 +1,72 @@
+React Js Preloaded Kick Starter  🙌
+==========================================================
+
+## Scalability Factor
+
+## Features
+
+* [Redux](http://redux.js.org/)
+* [Redux Saga](https://redux-saga.js.org/)
+* [Redux Persist](https://github.com/rt2zz/redux-persist/)
+* [Redux Logger](https://github.com/LogRocket/redux-logger/)
+* [React Navigation](https://reactnavigation.org/)
+* [React Native Gesture Handler](https://github.com/kmagiera/react-native-gesture-handler) 
+* [axios](https://github.com/axios/axios)
+* [lodash](https://lodash.com)
+
+## Dev tools
+* [Eslint](http://eslint.org/) ([Airbnb config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb))
+* [Jest](https://facebook.github.io/jest/)
+* [axios-mock-adapter](https://github.com/ctimmerm/axios-mock-adapter)
+* [Remote Redux DevTools](https://github.com/ctimmerm/axios-mock-adapter)
+
+
+
+## Project Structure
+- `/app` - Contains our React Native App codebase
+  - `/api` - Api module class. Each file will be feature based like ProductAPI, LoginAPI etc
+  - `/components` - universal shared components used by others.
+  - `/config` - Universal styles,images,metrics etc..
+  - `/lib` - lib helper files
+  - `/navigation` - All naviagtion related studd including helpers functions and navigation stack
+    - `NavigationHelpers.js` -  Use this class instead of depending on props.naviagtion
+    - `NavigationService.js` - Service class for naviagtion
+    - `NavigationStack.js` - Stack to define naviagtion. you can split things further if needed
+  - `/redux` - Includes everything you need to set up store. 
+    - `configureStore` - Combines all feature based sagas
+
+## Prerequisites
+* [Node](https://nodejs.org) v8.10 (it is recommended to install it via [NVM](https://github.com/creationix/nvm))
+* [Yarn](https://yarnpkg.com/)
+* A development machine set up for React Native by following [these instructions](https://facebook.github.io/react-native/docs/getting-started.html)
+
+## Getting Started
+1. Clone this repo, `git clone https://github.com/mathan1995/react-js-boilerplate.git <your project name>`
+2. Go to project's root directory, `cd <your project name>`
+3. Remove `.git` folder,  `rm -rf .git`
+4. Open `package.json` and change the `name` property with your project name
+5. Open `index.js` and replace `'ReactNativeBoilerPlate'` by your project name
+6. Open `app.json` and replace `'ReactNativeBoilerPlate'` by your project name 
+7. Run `yarn` or `npm install` to install dependencies
+8. Run `npm start`
+9. Run `npm run test`
+10. Start the packager with `npm start`
+11. Connect a mobile device to your development machine
+
+13. Enjoy!!!
+
+## Contributing
+@Mathan_jeya
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

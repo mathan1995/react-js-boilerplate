@@ -1,0 +1,43 @@
+/* Css for Common */
+
+
+#container{
+    background-color: #282c34;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    height: 100%;
+    padding:10%;
+margin:auto;
+    
+}
+
+#header h1{
+    color:#09d3ac;
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    font-size: 50px;
+    font-style: oblique;
+    text-align: center;
+}
+
+#header span{
+    color: yellow;
+    text-shadow: -1px 0 #09d3ac, 0 1px #09d3ac, 1px 0 #09d3ac, 0 -1px #09d3ac;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    padding:20px;
+    font-size: 25px;
+    
+}
+
+#header a{
+    color:#FFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    font-style: oblique;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;padding:10px
+}
