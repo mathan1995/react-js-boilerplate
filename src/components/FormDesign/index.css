@@ -1,0 +1,12 @@
+ #h1{
+    color:"#FFF";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50;
+}
+#container{
+    background-color: black;
+    align-content: center;
+    height:200;
+    padding:400;
+
+}
